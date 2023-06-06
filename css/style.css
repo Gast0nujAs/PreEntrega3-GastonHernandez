@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0px;
+}
+
+
+
+.navbar-collapse {
+  flex-grow: inherit;
+}
+
+.navbar-brand  {
+  color: bisque;
+  font-family: cursive;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.navbar {
+  background-image: url(http://campragolf.com/wp-content/uploads/2016/03/backgroud-2.png);
+  
+  background-size: cover;
+  padding: 20px;
+
+}
+
+
+
+
+
+.contn p {
+  text-align: center;
+  align-content: center;
+  color: bisque;
+}
+
+.contn {
+  background-color: #083308;
+  height: calc(100vh - 71px);
+  
+}
+
+.navbar a {
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  color: bisque;
+  padding-top: 80px;
+  
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  margin-top: 40px;
+  align-items: center;
+  background-color: transparent;
+  
+  border: 1px solid #f0f8ff;
+  color:#f0f8ff;
+  
+  
+}
+
+.nav-link:focus , .nav-link:hover {
+  color: #f0f8ff;
+  
+}
+
+.navbar-toggler {
+  border-color: #f0f8ff;
+}
+.dropdown-menu li a {
+  color: black;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 70px;
+    
+    padding-top: 30px;
+
+  }
+  p {
+    font-size: small;
+  }
+  
+}
+
+.gallery {
+  background-image: url(../img/pexels-pixabay-164250.jpg);
+  background-position: center;
+  background-size: contain;
+  padding: 40px; 
+
+}
+
+.images {
+  width: 278px;
+  height: 366px;
+  border: 1px solid #f0f8ff;
+  
+  
+}
+
+
+.call p {
+  font-size: medium;
+  color: #f0f8ff;
+
+}
+
+.call span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  font-size: 24px;
+  
+}
+
+@media (min-width: 1024px){
+  .gallery {
+    padding: 80px;
+  }
+}
+
+.img {
+  padding-top: 80px;
+  height: 450px;
+  width: 550px;
+  
+  
+  
+}
+
+h2 {
+  color: #f0f8ff;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #f0f8ff;
+}
+
+.footer h3 {
+      
+      padding-top: 15px;
+      text-align: center;
+      color: aliceblue;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+.footer span {
+  
+  color: #355700;
+  border: #355700 1px solid;
+}
+
+.footer { 
+  background-image: url(http://campragolf.com/wp-content/uploads/2016/03/backgroud-2.png);
+  
+  background-size: cover;
+  
+  
+}
+
+
+.carousel {
+  padding-top: 100px;
+  width: 550px;
+  height: 500px;
+  padding-left: 80px;
+}
+
+.intro h2 {
+  padding-top: 80px;
+
+}
+.intro h2 p {
+  padding-right: 150px;
+}
+
+.reser {
+  height: calc(100vh - 50px);
+  
+  background-color: #646e60af;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.reserved {
+  height: calc(100vh - 50px);
+  background-color: #083308;
+}
+
+.reserved h3 {
+  padding: 20px;
+  color: #f0f8ff;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+
+.anotacion {
+  padding-top: 10px;
+  border: 1px solid #0d690d;
+  
+}
+
+.text-color{
+  color: #f0f8ff;
+
+}
+
+.anotacion p {
+  color: #f0f8ff;
+  font-size: medium;
+}
+@media (max-width: 1154px) {
+
+  .carousel{
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+  }
+  .carousel-indicators {
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .intro h2 p {
+    font-size: auto;
+  }
+
+
+  
+}
+
+@media (max-width: 992px) {
+  .intro {
+    height: auto;
+  }
+
+  .img {
+    height: 340px;
+    width: auto;
+
+  }
+
+  .carousel {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 50px;
+    align-items: center;
+    align-content: center;
+    
+  }
+  h2 {
+    padding-top: inherit;
+    font-size: medium;
+  }
+
+  p {
+    font-size: auto;
+    color: #0d690d;
+    height: auto;
+    
+  }
+
+    
+}
+
+@media (max-width: 414px) {
+  .intro {
+    height: auto;
+    width: auto;
+
+  }
+  p {
+    font-size: x-small;
+  }
+  h2 {
+    padding-top: inherit;
+    font-size: medium;
+  }
+  
+}
